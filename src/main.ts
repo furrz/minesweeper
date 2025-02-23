@@ -5,7 +5,7 @@ import { makeTileView } from './tile-view.ts'
 
 function setup () {
   const fieldSize = 10
-  const numMines = 10
+  const numMines = 15
 
   if (numMines > fieldSize * fieldSize) {
     console.error('Too many mines for the field!')
